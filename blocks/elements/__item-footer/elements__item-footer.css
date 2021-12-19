@@ -1,0 +1,10 @@
+.elements__item-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 246px;
+  margin-top: 25px;
+  margin-right: 15px;
+  margin-bottom: 31px;
+  margin-left: 21px;
+  align-items: center;
+}
