@@ -1,7 +1,4 @@
 .profile__info {
-  margin: 0;
-  /*width: 336px;*/
-  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

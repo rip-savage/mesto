@@ -16,7 +16,7 @@ popoupOpenButton.addEventListener('click', togglePopup);
 popoupCloseButton.addEventListener('click', togglePopup);
 popup.addEventListener('click', closeOnPopupOverlayClick);
 
-let formElement = document.querySelector('.form__edit');
+let formElement = document.querySelector('.popup__form-edit');
 let nameInput = document.querySelector('.popup__inpute_form_name');
 let jobInput = document.querySelector('.popup__inpute_form_description');
 let profileInfoTitle = document.querySelector('.profile__info-title');
