@@ -1,7 +1,6 @@
 .page {
-  max-width: 1280px;
+  max-width: 880px;
   margin: 0 auto;
-  padding: 45px 200px 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #ffffff;
   background-color: #000000;
@@ -15,18 +14,17 @@
 
 @media screen and (max-width: 1050px) {
   .page {
-    padding: 45px 100px 0;
-  }
-}
-
-@media screen and (max-width: 822px) {
-  .page {
-    padding: 45px 50px 0;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-left: 19px;
+    padding-right: 19px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .page {
-    padding: 28px 19px 0px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

@@ -7,5 +7,7 @@
   .profile {
     flex-direction: column;
     flex-wrap: wrap;
+    padding-left: 19px;
+    padding-right: 19px;
   }
 }
