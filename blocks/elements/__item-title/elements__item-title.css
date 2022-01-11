@@ -11,3 +11,9 @@
   max-width: 246px;
   margin-left: 6px;
 }
+
+@media screen and (max-width: 767px) {
+  .elements__item-title {
+    margin-left: 4px;
+  }
+}

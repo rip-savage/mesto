@@ -12,8 +12,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.popup__inpute:nth-of-type(2) {
-  margin-bottom: 47px;
+.popup__inpute:last-of-type {
+  margin-bottom: 49px;
 }
 
 @media screen and (max-width: 767px) {
@@ -24,7 +24,7 @@
     margin-left: 22px;
     padding:  0 0 7px 0;
   }
-  .popup__inpute:nth-of-type(2) {
-    margin-bottom: 46px;
+  .popup__inpute:last-of-type {
+    margin-bottom: 44px;
   }
 }

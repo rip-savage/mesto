@@ -3,8 +3,8 @@
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
-  margin-bottom: 33px;
-  padding-bottom: 45px;
+  margin-bottom: 30px;
+  padding-bottom: 41px;
   border-bottom:  1px solid #545454;
   padding-top: 45px;
 }
@@ -13,6 +13,7 @@
   .header {
     padding-left: 19px;
     padding-right: 19px;
-    padding-bottom: 33px;
+    padding-bottom: 31px;
+    padding-top: 24px;
   }
 }
