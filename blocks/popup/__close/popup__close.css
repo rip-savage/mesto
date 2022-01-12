@@ -4,7 +4,7 @@
   height: 32px;
   top: -40px;
   right: -37px;
-  background: transparent url(../../../images/close__icon-desktop.svg);
+  background: transparent url(../../../images/popup__close-icon.svg);
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 767px) {
   .popup__close {
-    background: transparent url(../../../images/close__icon-mobile.svg);
+    background: transparent url(../../../images/popup__close-icon.svg);
+    background-size: 20px;
     width: 20px;
     height: 20px;
     top: -35px;
