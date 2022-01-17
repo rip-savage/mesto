@@ -31,3 +31,21 @@ function formSubmitHandler (evt) {
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
+
+const popupOpenButtonAddCard = document.querySelector('.profile__add-button');
+const popupCloseButtonAddCard = document.querySelector('.popup__close_add-card');
+const popupAddCard = document.querySelector('.popup_add-card');
+
+function togglePopupAddCard() {
+  popupAddCard.classList.toggle('popup_opened');
+}
+
+function closeOnPopupAddCardOverlayClick(event) {
+  if (event.target === event.currentTarget) {
+    popupAddCard.classList.remove('popup_opened');
+  }
+}
+
+popupOpenButtonAddCard.addEventListener('click', togglePopupAddCard);
+popupCloseButtonAddCard.addEventListener('click', togglePopupAddCard);
+popupAddCard.addEventListener('click', closeOnPopupAddCardOverlayClick);
